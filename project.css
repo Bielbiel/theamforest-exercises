@@ -1,0 +1,669 @@
+
+
+
+.section {
+    background: #fcfcfc;
+    min-height: 100px;
+}
+
+#sectionIntro {
+    padding-top: 200px;
+    background: url("photos/zdj profilowe.jpg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: cover;
+    min-height: 642px;
+}
+
+
+
+#sectionPortfolio, #sectionContact, #sectionAbout {
+    padding: 120px 0px;
+    text-align: left;
+}
+
+#sectionIntro, #sectionJournal, #sectionResume {
+    background: #fcfcfc;
+    padding: 120px 0px;
+    text-align: left;
+}
+
+.container-fluid1 {
+    background: #fcfcfc;
+    padding: 30px;
+}
+.navul{
+    list-style: none;
+    float:right;
+}
+.navbarcolor {
+    background-color: rgba(255, 255, 255, 1);
+}
+.borderd {
+    margin-top:  70px;
+}
+.hederSpan {
+    color: #000;
+    font-family: "Lora", serif;
+    background-color: #fff197;
+    font-size: 30px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+}
+
+.navbar li a {
+    margin: 15px;
+    text-decoration: none;
+    line-height: 55px;
+    padding-bottom: 0px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    font-family: "Lato", sans-serif;
+    color: #333;
+    border: 1px solid transparent;
+}
+
+.navbar li a:hover {
+    border-bottom: 2px solid #fff197;
+    color: #072def;
+}
+
+.navbar li.active a {
+    border-bottom: 2px solid #fff197;
+    color: #072def;
+}
+
+.right21 {
+    -moz-transition: top 0.2s;
+    -o-transition: top 0.2s;
+    -webkit-transition: top 0.2s;
+    transition: top 0.2s;
+}
+
+.highlighted {
+    top: -10px;
+}
+
+.right21 {
+    padding: 80px 0px 20px 0px;
+    border-bottom: 2px solid #dcdcdc;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.right21:hover {
+    border-bottom: 2px solid #fff197;
+}
+
+.right21:active {
+    border-bottom: 2px solid #fff197;
+}
+
+.margin {
+    margin: 0 2% 2% 2%;
+
+}
+.nag1 {
+    color: #072def;
+    font-size: 20px;
+    font-family: "Lora", sans-serif;
+}
+
+
+
+.nag2 {
+    background-color: #fff197;
+    font-size: 44px;
+    font-family: "Lora", serif;
+}
+
+.nag3 {
+    font-size: 15px;
+    font-family: "Lora", sans-serif;
+}
+
+/* section intro
+------------------------------- */
+.nag21 {
+    background-color: #fff197;
+    font-size: 60px;
+    font-family: "Lora", serif;
+}
+
+/* section about
+------------------------------- */
+.margind{
+    margin-bottom: 70px;
+}
+
+.p-margin{
+    margin-bottom: 33px;
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+    color: #222;
+    letter-spacing: 0.04em;
+    margin-top: 5px;
+}
+.h-padding{
+    font-family: "Lora", sans-serif;
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 0px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.section {
+    background: #fcfcfc;
+    min-height: 100px;
+}
+
+#sectionIntro {
+    padding-top: 200px;
+    background: url("photos/zdj profilowe.jpg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: cover;
+    min-height: 642px;
+}
+
+
+
+#sectionPortfolio, #sectionContact, #sectionAbout {
+    padding: 120px 0px;
+    text-align: left;
+}
+
+.skillbar-progress {
+    width: 100%;
+    height: 5px;
+    background-color: #ededed;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+
+.skillbar-bar {
+    width: 0;
+    height: 100%;
+    background-color: #fff197;
+}
+/* section resume
+------------------------------- */
+
+.expeP{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    font-family: "Work Sans", sans-serif;
+    color: #333;
+
+}
+
+.expeH{
+    font-family: "Lora", sans-serif;
+    font-size: 22px;
+    color: #000;
+
+}
+.expePS{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: #072def;
+    position: relative;
+    top: 8px;
+}
+/* section portfolio
+------------------------------- */
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+.container-fluid.no-gutter {
+    padding: 0px;
+}
+
+.container-fluid.no-gutter .row [class*='col-']:not(:first-child),
+.container-fluid.no-gutter .row [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.item {
+    border: none;
+    width: 50%;
+    padding: 0 28px 28px 0;
+
+}
+
+.item img {
+    margin: 0 auto;
+
+}
+
+.isotope,
+.isotope .item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: top, left, opacity;
+    transition-property: transform, opacity;
+}
+ul.listforgallery li {
+    display: inline-block;
+
+    margin: 0 8px;
+    text-transform: uppercase;
+    font-weight: 400;;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    float: right;
+}
+
+
+
+/* section jurnal
+------------------------------- */
+
+.jurP {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    font-family: "Work Sans", sans-serif;
+    color: #777;
+}
+.jurH {
+    font-family: "Lora", sans-serif;
+    font-size: 26px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.jurw {
+    max-width: 90%;
+}
+
+
+/* section contakt
+------------------------------- */
+.contactForm {
+    position: relative;
+    top: -25px;
+    padding-left: 20px;
+}
+
+.contact-story {
+    font-family: "Lora", sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    margin-top: 0px;
+    max-width: 400px;
+}
+
+.contact-story span {
+    color: #072def;
+}
+
+.info-box {
+    margin-top: 35px;
+}
+
+.info-box-right {
+    margin-top: 78px;
+}
+
+.info-box h4 {
+    font-family: "Lora", sans-serif;
+    font-size: 18px;
+    color: #111;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    font-family: "Work Sans", sans-serif;
+    color: #777;
+}
+
+
+
+input, textarea, select {
+    background: transparent;
+    vertical-align: top;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    margin: 0;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-bottom: 2px solid #fff197;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    font-weight: 300;
+    color: #333;
+    font-family: "Work Sans", sans-serif;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input.submit {
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    border: 0;
+    margin-top: 30px;
+    padding: 6px 14px;
+    text-align: left !important;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    background-color: #fff197;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+.itemHover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.grid-item a:hover .itemHover {
+    opacity: 1;
+}
+
+.grid-item a:hover h4 {
+    left: 15px;
+    opacity: 1;
+}
+
+.grid-item a:hover h6 {
+    left: 27px;
+    opacity: 1;
+}
+
+.grid-item h4 {
+    color: #fff;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 12px;
+    position: absolute;
+    top: 15px;
+    left: -5px;
+    font-family: "Lora", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 0;
+    -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.grid-item h6 {
+    color: #f5f5f5;
+    top: 45px;
+    left: 5px;
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    opacity: 0;
+    -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.modal-box {
+    max-width: 550px;
+    background: #fff;
+    position: relative !important;
+    margin: 0 auto;
+    left: 0 !important;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.modal-box-content h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111;
+    font-family: "Lora", sans-serif;
+    letter-spacing: 1px;
+}
+
+.modal-box-content p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 28px;
+    max-width: 800px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: #555;
+}
+
+.contactForm {
+    margin: 0 0 50px 0;
+}
+
+.contactForm h1 {
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.item {
+    border: none;
+    width: 50%;
+    padding: 0 28px 28px 0;
+
+}
+
+.item img {
+    margin: 0 auto;
+
+}
+
+/* Isotope Transitions
+------------------------------- */
+.isotope,
+.isotope .item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: top, left, opacity;
+    transition-property: transform, opacity;
+}
+
+/* responsive media queries */
+
+.navbar li a {
+    margin: 15px;
+    text-decoration: none;
+    line-height: 55px;
+    padding-bottom: 0px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    font-family: "Lato", sans-serif;
+    color: #333;
+    border: 1px solid transparent;
+}
+
+.navbar li a:hover {
+    border-bottom: 2px solid #fff197;
+    color: #072def;
+}
+
+.navbar li.active a {
+    border-bottom: 2px solid #fff197;
+    color: #072def;
+}
+
+.right21 {
+    -moz-transition: top 0.2s;
+    -o-transition: top 0.2s;
+    -webkit-transition: top 0.2s;
+    transition: top 0.2s;
+}
+
+.highlighted {
+    top: -10px;
+}
+
+.right21 {
+    padding: 80px 0px 20px 0px;
+    border-bottom: 2px solid #dcdcdc;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.right21:hover {
+    border-bottom: 2px solid #fff197;
+}
+
+.right21:active {
+    border-bottom: 2px solid #fff197;
+}
+
+.margin {
+    margin: 0 2% 2% 2%;
+
+}
+.margind{
+    margin-bottom: 70px;
+}
+.borderd {
+    margin-top:  70px;
+ }
+.p-margin{
+    margin-bottom: 33px;
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+    color: #222;
+    letter-spacing: 0.04em;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .item {
+        border: none;
+        width: 100%;
+        padding: 0 14px 14px 0;
+
+    }
+
+    .margin {
+        margin: 0;
+    }
+
+    #sectionIntro {
+        padding: 0px 0px;
+    }
+}
+
+
+
